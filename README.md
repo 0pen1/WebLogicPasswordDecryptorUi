@@ -1,8 +1,10 @@
 ## jsp在线解密weblogic，加强判断，get传参
 
+## USAGE
+
 `x.jsp?p=AES密码`
 
-Example:
+### Example:
 
 ```
 root@0ba3ae6d6212:~# cat ./Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/security/boot.properties
@@ -15,6 +17,7 @@ root@0ba3ae6d6212:~#
 ```
 
 ![](./decode.png)
+
 ```
 <%@page pageEncoding="utf-8" %>
 <%@page import="weblogic.security.internal.*,weblogic.security.internal.encryption.*" %>
